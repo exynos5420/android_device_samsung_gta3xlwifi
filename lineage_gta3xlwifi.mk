@@ -15,7 +15,7 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a5y17lte/device.mk)
+$(call inherit-product, device/samsung/gta3xlwifi/device.mk)
 
 # Inherit from the 64 bit configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -33,9 +33,9 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_a5y17lte
-PRODUCT_DEVICE := a5y17lte
+PRODUCT_NAME := lineage_gta3xlwifi
+PRODUCT_DEVICE := gta3xlwifi
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A520F
+PRODUCT_MODEL := SM-T510
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

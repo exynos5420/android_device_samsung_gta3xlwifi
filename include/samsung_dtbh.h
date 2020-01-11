@@ -20,7 +20,7 @@
 
 #define DTBH_MAGIC         "DTBH"
 #define DTBH_VERSION       2
-#define DTBH_MODEL         "A5Y17"
+#define DTBH_MODEL         "GTA3XL"
 #define DTBH_PLATFORM      "android"
 #define DTBH_SUBTYPE       "samsung"
  /* Hardcoded entry */

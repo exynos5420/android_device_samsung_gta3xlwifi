@@ -14,15 +14,15 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/a5y17lte
+LOCAL_PATH := device/samsung/gta3xlwifi
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # System.prop
-TARGET_SYSTEM_PROP += device/samsung/a5y17lte/system.prop
+TARGET_SYSTEM_PROP += device/samsung/gta3xlwifi/system.prop
 
 # call the common setup
-$(call inherit-product, device/samsung/universal7880-common/common.mk)
+$(call inherit-product, device/samsung/universal7885-common/common.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/a5y17lte/a5y17lte-vendor.mk)
+$(call inherit-product, vendor/samsung/gta3xlwifi/gta3xlwifi-vendor.mk)
